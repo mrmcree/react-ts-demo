@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Components from './components'
 const {Hello, LinkButton} = Components
-
+/*app*/
 const App: React.FC = () => {
     return (
         <>
