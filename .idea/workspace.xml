@@ -19,15 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b2744c1-50bb-4f28-9e06-6c2a78840a16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LinkButon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hello.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    <list default="true" id="6b2744c1-50bb-4f28-9e06-6c2a78840a16" name="Default Changelist" comment=":sparkles: 添加一个button组件">
+      <change afterPath="$PROJECT_DIR$/src/components/useMousePosition.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Users\yangheli\Desktop\yurun\react-ts-demo\react-ts-demo\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -95,6 +88,7 @@
       <workItem from="1601281638652" duration="173000" />
       <workItem from="1601281859244" duration="320000" />
       <workItem from="1601282202512" duration="554000" />
+      <workItem from="1601295712526" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="🌈初始提交react项目文件">
       <created>1601276874868</created>
@@ -103,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601276874868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":sparkles: 添加一个button组件">
+      <created>1601295806568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601295806568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
