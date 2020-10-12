@@ -6,10 +6,17 @@ const App: React.FC = () => {
   return (
     <>
       <div className="App">
-        <Menu defaultIndex={0}>
-          <MenuItem>link1</MenuItem>
-          <MenuItem>link2</MenuItem>
-          <MenuItem>link3</MenuItem>
+        <Menu
+          defaultIndex={0}
+          onSelect={(index) => {
+            console.log(index);
+          }}
+        >
+          <MenuItem index={0} disabled>
+            link1
+          </MenuItem>
+          <MenuItem index={1}>link2</MenuItem>
+          <MenuItem index={3}>link3</MenuItem>
         </Menu>
         <Button
           onClick={() => {

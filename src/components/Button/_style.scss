@@ -1,5 +1,3 @@
-@import "../../style/variables";
-@import "../../style/mixin";
 .National-btn {
   position: relative;
   display: inline-block;
@@ -11,7 +9,12 @@
   vertical-align: middle;
   background-image: none;
   border: $btn-border-width solid transparent;
-  @include button-size( $btn-padding-y,  $btn-padding-x,  $btn-font-size,  $border-radius);
+  @include button-size(
+    $btn-padding-y,
+    $btn-padding-x,
+    $btn-font-size,
+    $border-radius
+  );
   box-shadow: $btn-box-shadow;
   cursor: pointer;
   transition: $btn-transition;
@@ -27,21 +30,38 @@
 }
 
 .National-btn-lg {
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+  @include button-size(
+    $btn-padding-y-lg,
+    $btn-padding-x-lg,
+    $btn-font-size-lg,
+    $btn-border-radius-lg
+  );
 }
 .National-btn-sm {
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+  @include button-size(
+    $btn-padding-y-sm,
+    $btn-padding-x-sm,
+    $btn-font-size-sm,
+    $btn-border-radius-sm
+  );
 }
 
 .National-btn-primary {
-  @include button-style($primary, $primary, $white)
+  @include button-style($primary, $primary, $white);
 }
 .National-btn-danger {
-  @include button-style($danger, $danger, $white)
+  @include button-style($danger, $danger, $white);
 }
 
 .National-btn-default {
-  @include button-style($white, $gray-400, $body-color, $white, $primary, $primary)
+  @include button-style(
+    $white,
+    $gray-400,
+    $body-color,
+    $white,
+    $primary,
+    $primary
+  );
 }
 
 .National-btn-link {
@@ -64,4 +84,3 @@
     pointer-events: none;
   }
 }
-
